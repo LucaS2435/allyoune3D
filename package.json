@@ -1,0 +1,24 @@
+{
+  "name": "asd",
+  "version": "1.0.0",
+  "description": "pasando todo a sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/style.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaS2435/allyoune3D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucaS2435/allyoune3D/issues"
+  },
+  "homepage": "https://github.com/LucaS2435/allyoune3D#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+@mixin tablet{
+ @media screen and (min-width: 768px) {
+  @content;}
+}
+
+@mixin destokp{
+    @media screen and (min-width: 1024px){
+        @content;}
+}

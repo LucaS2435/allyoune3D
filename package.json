@@ -1,11 +1,13 @@
 {
   "name": "asd",
   "version": "1.0.0",
-  "description": "pasando todo a sass",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/style.scss css/style.css --watch"
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css"
+    
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,8 @@
     "url": "https://github.com/LucaS2435/allyoune3D/issues"
   },
   "homepage": "https://github.com/LucaS2435/allyoune3D#readme",
-  "dependencies": {
-    "node-sass": "^8.0.0"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
 }

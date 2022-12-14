@@ -1,0 +1,19 @@
+.footer {  
+    color: $letrab;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    .fus{
+        text-align: center;
+        color: $letrab;
+        text-decoration: none
+    }
+    .fus:hover{
+        color: red;
+    }
+    .consult{
+        font-size: 15px;
+        word-spacing: 3px 
+    }
+}

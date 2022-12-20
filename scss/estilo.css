@@ -104,6 +104,10 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  .ini .section3 .inic {
+    width: 500px;
+    margin-left: 700px;
+  }
   .ini .section3 .tenvio {
     font-size: 20px;
   }
@@ -119,6 +123,9 @@
     float: inline-end;
     align-items: center;
   }
+}
+.ini .section4 {
+  /* RECOMENDACIONES */
 }
 .ini .section4 .card {
   display: flex;
@@ -147,36 +154,46 @@
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 @media screen and (min-width: 1024px) {
-  .ini .section4 .section4 {
+  .ini .section4 {
+    grid-area: section-4;
+    gap: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 20px 60px;
     padding: 20px;
     background-color: rgb(68, 87, 255);
+    width: 100%;
   }
-  .ini .section4 .card {
-    background-size: cover;
-    display: flex;
-    overflow: hidden;
-    box-shadow: 0px 1px 10px;
-    padding: 10px;
-    margin: 15px;
-    background-color: rgb(161, 160, 160);
-    border-radius: 15px;
-  }
-  .ini .section4 .recomen {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    border-radius: 20%;
-  }
-  .ini .section4 .recome {
-    display: flex;
-    font-size: 15px;
-    color: rgb(10, 6, 8);
-    text-align: center;
-  }
+}
+.ini .section4 .card {
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  padding: 10px;
+  margin: 15px;
+  background-color: rgb(161, 160, 160);
+  border-radius: 8px;
+  width: 330px;
+  height: 250px;
+}
+.ini .section4 .recomen {
+  display: flex;
+  width: 150px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 7px;
+}
+.ini .section4 .recome {
+  display: flex;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(10, 6, 8);
+}
+.ini .section4 .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 * {
